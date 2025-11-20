@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фото</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Мой личный сайт</h1>
+    </div>
+    <div class="menu">
+        <a href="index.html">Главная</a>
+        <a href="resume.html">Резюме</a>
+        <a href="hobbies.html">Хобби</a>
+        <a href="photos.html">Фото</a>
+        <a href="feedback.html">Обратная связь</a>
+        <a href="contacts.html">Контакты</a>
+    </div>
+    <div class="content">
+        <h2>Мои фотографии</h2>
+        <div class="slideshow-container">
+            <img class="slide" src="photos/1.jpg" alt="Фото 1">
+            <img class="slide" src="photos/2.jpg" alt="Фото 2">
+            <img class="slide" src="photos/3.jpg" alt="Фото 3">
+
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Контакт: aksenov.s@gmail.com</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
